@@ -106,14 +106,39 @@ Runtime Requirements</h2>
 Build Requirements</h2>
 <ul>
 <li>Unity Editor 2022.3.0 or later</li>
-<li><a href="https://github.com/dbrizov/NaughtyAttributes">Naughty Attrributes</a></li>
+<li>Unity Api Compatibility Level set to .NET Framework</li>
+<li><a href="https://github.com/dbrizov/NaughtyAttributes">NaughtyAttributes</a> package</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Installation</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Installation Requirements (if installing using a Git URL)</h2>
+<ul>
+<li>Install the <a href="https://git-scm.com/">Git client</a> (minimum version 2.14.0) on your computer.</li>
+<li>On Windows, add the Git executable path to the <code>PATH</code> system environment variable.</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md5"></a>
+Installation</h1>
+<ol type="1">
+<li>Verify Unity's Api Compatibility Level by navigating to Unity's main menu and selecting <b>Edit &gt; Project Settings &gt; Player &gt; Other settings</b>. Under the Configuration heading, set <b>Api Compatibility Level</b> to **.NET Framework**.</li>
+<li>Open the Package Manager window by navigating to Unity's main menu and selecting <b>Window &gt; Package Manager</b>.</li>
+<li><p class="startli">Install the NaughtyAttributes package using <b>Add package from git URL</b> from the Unity Package Manager:</p>
+<div class="fragment"><div class="line">https://github.com/dbrizov/NaughtyAttributes.git#upm </div>
+</div><!-- fragment --></li>
+<li><p class="startli">Install the <a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK package using <b>Add package from git URL</b> from the Unity Package Manager:</p>
+<div class="fragment"><div class="line">https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK.git </div>
+</div><!-- fragment --><ul>
+<li>Or, download the source code <code>.zip</code> or <code>.tar.gz</code> file from <a href="https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/releases">Releases</a> and extract it locally. Then install the <a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK package using <b>Add package from disk</b> from the Unity Package Manager.</li>
+</ul>
+</li>
+</ol>
+<p>For more infomation about installing Unity packages, see:</p>
+<ul>
+<li><a href="https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-giturl.html">Install a UPM package from a Git URL</a></li>
+<li><a href="https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-local.html">Install a UPM package from a local folder</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md6"></a>
 Documentation</h1>
 <p>See the <a href="https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK-Documentation/">Reference Manual</a></p>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 Notices</h1>
 <p>Copyright (C) 2024 Museum of Science, Boston <a href="https://www.mos.org/">https://www.mos.org/</a></p>
 <p>This software and media assets were developed through a grant to the Museum of Science, Boston from the Institute of Museum and Library Services under Award #MG-249646-OMS-21. For more information about this grant, see <a href="https://www.imls.gov/grants/awarded/mg-249646-oms-21">https://www.imls.gov/grants/awarded/mg-249646-oms-21</a>.</p>
