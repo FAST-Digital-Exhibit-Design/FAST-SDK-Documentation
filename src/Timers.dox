@@ -1,0 +1,12 @@
+/**
+@defgroup Timers
+@{
+@brief A collection of timer-related scripts and how to use them.
+@details More details
+
+# Using EventTimer
+
+# Using IdleTimer
+
+@}
+*/

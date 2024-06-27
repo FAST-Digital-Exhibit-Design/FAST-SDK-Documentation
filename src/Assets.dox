@@ -1,0 +1,10 @@
+/**
+@defgroup Assets Assets From File
+@{
+@brief Assets loaded from the file system in multiple languages.
+@details More details
+
+# Using AssetFromFile
+Derive from FAST.AssetFromFile to create a new class type that can access FAST.Application.assets.
+@}
+*/

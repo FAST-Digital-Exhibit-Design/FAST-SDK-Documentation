@@ -1,0 +1,12 @@
+/**
+@defgroup Audio
+@{
+@brief A collection of audio-related scripts and how to use them.
+@details More details
+
+# Using AudioPlayer
+
+# Using AudioClipExtensions
+
+@}
+*/
