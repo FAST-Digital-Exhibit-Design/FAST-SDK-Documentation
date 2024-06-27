@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: FAST SDK Documentation
+message: >-
+  If you reference this software in a publication, please
+  cite it as below.
+type: software
+authors:
+  - name: Museum of Science, Boston
+    website: 'https://www.mos.org'
+repository-code: >-
+  https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK-Documentation
+abstract: >-
+  Reference Manual files for the FAST SDK.
+license: MIT
+version: 1.0.0
