@@ -7,5 +7,6 @@ var index =
     ] ],
     [ "Installation", "index.html#autotoc_md5", null ],
     [ "Documentation", "index.html#autotoc_md6", null ],
-    [ "Notices", "index.html#autotoc_md7", null ]
+    [ "Contributions", "index.html#autotoc_md7", null ],
+    [ "Notices", "index.html#autotoc_md8", null ]
 ];

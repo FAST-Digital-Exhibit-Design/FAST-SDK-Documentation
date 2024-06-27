@@ -3,6 +3,13 @@
 [Reference Manual](https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK-Documentation/) 
 files for the [FAST SDK](https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK).
 
+## Contributions
+
+Pull Requests are not accepted at this time. If you'd like to contribute, 
+please post questions and comments about using FAST SDK to 
+[Discussions](https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/discussions) 
+and report bugs using [Issues](https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/issues).
+
 ## Notices
 
 Copyright (C) 2024 Museum of Science, Boston
