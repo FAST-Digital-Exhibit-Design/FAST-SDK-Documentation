@@ -10,6 +10,26 @@ please post questions and comments about using FAST SDK to
 [Discussions](https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/discussions) 
 and report bugs using [Issues](https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/issues).
 
+## Citation
+
+If you reference this software in a publication, please cite it as follows:
+
+**APA**
+```
+Museum of Science, Boston. FAST SDK Documentation (Version 1.0.0) [Computer software]. https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK-Documentation
+```
+
+**BibTeX**
+```
+@software{Museum_of_Science_FAST_SDK_Documentation,
+author = {{Museum of Science, Boston}},
+license = {MIT},
+title = {{FAST SDK Documentation}},
+url = {https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK-Documentation},
+version = {1.0.0}
+}
+```
+
 ## Notices
 
 Copyright (C) 2024 Museum of Science, Boston
