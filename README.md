@@ -35,10 +35,10 @@ version = {1.0.0}
 Copyright (C) 2024 Museum of Science, Boston
 <https://www.mos.org/>
 
-This software and media assets were developed through a grant to the 
-Museum of Science, Boston from the Institute of Museum and Library 
-Services under Award \#MG-249646-OMS-21. For more information about 
-this grant, see <https://www.imls.gov/grants/awarded/mg-249646-oms-21>.
+This software was developed through a grant to the Museum of Science, 
+Boston from the Institute of Museum and Library Services under Award 
+#MG-249646-OMS-21. For more information about this grant, see 
+<https://www.imls.gov/grants/awarded/mg-249646-oms-21>.
 
 This software is open source: you can redistribute it and/or modify
 it under the terms of the MIT License.

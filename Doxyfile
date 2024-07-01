@@ -42,7 +42,7 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = "FAST SDK Reference Manual"
+PROJECT_NAME           = "FAST SDK Coding Reference"
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
@@ -597,7 +597,7 @@ HIDE_UNDOC_MEMBERS     = YES
 # if EXTRACT_ALL is enabled.
 # The default value is: NO.
 
-HIDE_UNDOC_CLASSES     = NO
+HIDE_UNDOC_CLASSES     = YES
 
 # If the HIDE_FRIEND_COMPOUNDS tag is set to YES, doxygen will hide all friend
 # declarations. If set to NO, these declarations will be included in the
@@ -951,8 +951,6 @@ WARN_LOGFILE           =
 
 INPUT                  = ../FAST-SDK/Runtime \
                          ../FAST-SDK/Editor \
-                         ../FAST-SDK/README.md \
-                         ../FAST-SDK/LICENSE.md \
                          src
 
 # This tag can be used to specify the character encoding of the source files
@@ -1169,7 +1167,7 @@ FILTER_SOURCE_PATTERNS =
 # (index.html). This can be useful if you have a project on for instance GitHub
 # and want to reuse the introduction page also for the doxygen output.
 
-USE_MDFILE_AS_MAINPAGE = README.md
+USE_MDFILE_AS_MAINPAGE =
 
 # The Fortran standard specifies that for fixed formatted Fortran code all
 # characters from position 72 are to be considered as comment. A common

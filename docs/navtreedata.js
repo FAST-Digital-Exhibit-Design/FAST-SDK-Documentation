@@ -24,10 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "FAST SDK Reference Manual", "index.html", [
-    [ "FAST SDK", "index.html", "index" ],
-    [ "LICENSE", "md__c_1_2_users_2cgbrown_2_development_2github_2_f_a_s_t_2_f_a_s_t-_s_d_k_2_l_i_c_e_n_s_e.html", null ],
-    [ "Topics", "topics.html", "topics" ],
+  [ "FAST SDK Coding Reference", "index.html", [
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -46,8 +43,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_f_a_s_t_1_1_key_binding_1_1_unity_event_key_command.html",
-"class_f_a_s_t_1_1_udp_connection_loader.html"
+"class_f_a_s_t_1_1_marker_button.html",
+"functions_c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

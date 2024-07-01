@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>FAST SDK Reference Manual: FAST SDK</title>
+<title>FAST SDK Coding Reference: FAST SDK Coding Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">FAST SDK Reference Manual<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">FAST SDK Coding Reference<span id="projectnumber">&#160;1.0.0</span>
    </div>
   </td>
  </tr>
@@ -91,79 +91,13 @@ $(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title"><a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK </div></div>
+  <div class="headertitle"><div class="title"><a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK Coding Reference </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__c_1_2_users_2cgbrown_2_development_2github_2_f_a_s_t_2_f_a_s_t-_s_d_k_2_r_e_a_d_m_e"></a> A software development kit for creating <a class="el" href="namespace_f_a_s_t.html">FAST</a> digital exhibit experiences in Unity.</p>
-<p><b>What is <a class="el" href="namespace_f_a_s_t.html">FAST</a>?</b></p>
-<p><ins>F</ins>lexible, <ins>A</ins>ccessible <ins>S</ins>trategies for <ins>T</ins>imely Digital Exhibit Design</p>
-<p>Museums play a critical role in engaging their communities around urgent issues that emerge in the public sphere. However, typical exhibit development timelines can stretch for years, and "what's new" can change swiftly before an exhibition is even launched. What if museums could stay agile and dynamic, changing out content as community needs shift, science progresses, and the world changes? What if timely exhibit offerings could be not just efficiently produced, but accessible and welcoming to all visitors? This vision of efficiency and accessibility is at the center of <a class="el" href="namespace_f_a_s_t.html">FAST</a>.</p>
-<p>For more information about <a class="el" href="namespace_f_a_s_t.html">FAST</a>, please see:</p>
-<ul>
-<li><a class="el" href="namespace_f_a_s_t.html">FAST</a> Booklet, an introduction and explination of the <a class="el" href="namespace_f_a_s_t.html">FAST</a> project</li>
-<li><a class="el" href="namespace_f_a_s_t.html">FAST</a> Toolkit, a repository off all assets and documentation published from the <a class="el" href="namespace_f_a_s_t.html">FAST</a> project</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md1"></a>
-System Requirements</h1>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Runtime Requirements</h2>
-<ul>
-<li>Microsoft Windows 10 or 11</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
-Build Requirements</h2>
-<ul>
-<li>Unity Editor 2022.3.0 or later</li>
-<li>Unity Api Compatibility Level set to .NET Framework</li>
-<li><a href="https://github.com/dbrizov/NaughtyAttributes">NaughtyAttributes</a> package</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Installation Requirements (if installing using a Git URL)</h2>
-<ul>
-<li>Install the <a href="https://git-scm.com/">Git client</a> (minimum version 2.14.0) on your computer.</li>
-<li>On Windows, add the Git executable path to the <code>PATH</code> system environment variable.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md5"></a>
-Installation</h1>
-<ol type="1">
-<li>Verify Unity's Api Compatibility Level by navigating to Unity's main menu and selecting <b>Edit &gt; Project Settings &gt; Player &gt; Other settings</b>. Under the Configuration heading, set <b>Api Compatibility Level</b> to <b>.NET Framework</b>.</li>
-<li>Open the Package Manager window by navigating to Unity's main menu and selecting <b>Window &gt; Package Manager</b>.</li>
-<li><p class="startli">Install the NaughtyAttributes package using <b>Add package from git URL</b> from the Unity Package Manager:</p>
-<div class="fragment"><div class="line">https://github.com/dbrizov/NaughtyAttributes.git#upm</div>
-</div><!-- fragment --></li>
-<li><p class="startli">Install the <a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK package using <b>Add package from git URL</b> from the Unity Package Manager:</p>
-<div class="fragment"><div class="line">https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK.git</div>
-</div><!-- fragment --><ul>
-<li>Or, download the source code <code>.zip</code> or <code>.tar.gz</code> file from <a href="https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/releases">Releases</a> and extract it locally. Then install the <a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK package using <b>Add package from disk</b> from the Unity Package Manager.</li>
-</ul>
-</li>
-</ol>
-<p>For more infomation about installing Unity packages, see:</p>
-<ul>
-<li><a href="https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-giturl.html">Install a UPM package from a Git URL</a></li>
-<li><a href="https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-local.html">Install a UPM package from a local folder</a></li>
-</ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
-Documentation</h1>
-<p>See the <a href="https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK-Documentation/">Reference Manual</a></p>
-<h1><a class="anchor" id="autotoc_md7"></a>
-Contributions</h1>
-<p>This repo is only maintained with bug fixes and Pull Requests are not accepted at this time. If you'd like to contribute, please post questions and comments about using <a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK to <a href="https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/discussions">Discussions</a> and report bugs using <a href="https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK/issues">Issues</a>.</p>
-<h1><a class="anchor" id="autotoc_md8"></a>
-Citation</h1>
-<p>If you reference this software in a publication, please cite it as follows:</p>
-<p><b>APA</b> </p><div class="fragment"><div class="line">Museum of Science, Boston. FAST SDK (Version 1.0.0) [Computer software]. https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK</div>
-</div><!-- fragment --><p><b>BibTeX</b> </p><div class="fragment"><div class="line">@software{Museum_of_Science_FAST_SDK,</div>
-<div class="line">author = {{Museum of Science, Boston}},</div>
-<div class="line">license = {MIT},</div>
-<div class="line">title = {{FAST SDK}},</div>
-<div class="line">url = {https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK},</div>
-<div class="line">version = {1.0.0}</div>
-<div class="line">}</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md9"></a>
-Notices</h1>
+<div class="textblock"><p>A coding reference for using the <a class="el" href="namespace_f_a_s_t.html">FAST</a> SDK to create digital exhibit experiences in Unity.</p>
+<h3>Notices</h3>
 <p>Copyright (C) 2024 Museum of Science, Boston <a href="https://www.mos.org/">https://www.mos.org/</a></p>
-<p>This software and media assets were developed through a grant to the Museum of Science, Boston from the Institute of Museum and Library Services under Award #MG-249646-OMS-21. For more information about this grant, see <a href="https://www.imls.gov/grants/awarded/mg-249646-oms-21">https://www.imls.gov/grants/awarded/mg-249646-oms-21</a>.</p>
+<p>This software was developed through a grant to the Museum of Science, Boston from the Institute of Museum and Library Services under Award #MG-249646-OMS-21. For more information about this grant, see <a href="https://www.imls.gov/grants/awarded/mg-249646-oms-21">https://www.imls.gov/grants/awarded/mg-249646-oms-21</a>..</p>
 <p>This software is open source: you can redistribute it and/or modify it under the terms of the MIT License.</p>
 <p>This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the MIT License for more details.</p>
 <p>You should have received a copy of the MIT License along with this software. If not, see <a href="https://opensource.org/license/MIT">https://opensource.org/license/MIT</a>.</p>

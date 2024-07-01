@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fast_20sdk_0',['FAST SDK',['../index.html',1,'']]]
+  ['coding_20reference_0',['FAST SDK Coding Reference',['../index.html',1,'']]]
 ];
