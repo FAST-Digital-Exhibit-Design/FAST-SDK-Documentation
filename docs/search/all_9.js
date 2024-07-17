@@ -30,12 +30,13 @@ var searchData=
   ['ismouseinput_27',['isMouseInput',['../class_f_a_s_t_1_1_white_screen_settings.html#ac9eb9674b72675e9d02e2493d078664c',1,'FAST.WhiteScreenSettings.isMouseInput'],['../class_f_a_s_t_1_1_white_screen_manager.html#ac9eb9674b72675e9d02e2493d078664c',1,'FAST.WhiteScreenManager.isMouseInput']]],
   ['isoverwrite_28',['isOverwrite',['../class_f_a_s_t_1_1_serial_connection.html#a2fe62253ea2657a3be7e47a92f026d65',1,'FAST.SerialConnection.isOverwrite'],['../class_f_a_s_t_1_1_udp_connection.html#a2fe62253ea2657a3be7e47a92f026d65',1,'FAST.UdpConnection.isOverwrite']]],
   ['ispaused_29',['isPaused',['../class_f_a_s_t_1_1_image_player.html#a9e9483098282f7e475601c37b1f6496d',1,'FAST::ImagePlayer']]],
-  ['isplaying_30',['isPlaying',['../class_f_a_s_t_1_1_image_player.html#af55f7beec49af3268e5ed9aa85dc8d4f',1,'FAST::ImagePlayer']]],
+  ['ispaused_30',['IsPaused',['../class_f_a_s_t_1_1_audio_player.html#af0cfdad2000f6666b74f837342ede53d',1,'FAST::AudioPlayer']]],
   ['isplaying_31',['IsPlaying',['../class_f_a_s_t_1_1_screen_template.html#aa3a66cc799248a4384240e006bb9ef1d',1,'FAST::ScreenTemplate']]],
-  ['isrunning_32',['IsRunning',['../class_f_a_s_t_1_1_audio_player.html#af5cb1246be24f89c7a5f720af0c92559',1,'FAST::AudioPlayer']]],
-  ['isserialinput_33',['isSerialInput',['../class_f_a_s_t_1_1_white_screen_settings.html#ac40c6b1e1ba6753e888a2655c01aa838',1,'FAST.WhiteScreenSettings.isSerialInput'],['../class_f_a_s_t_1_1_white_screen_manager.html#ac40c6b1e1ba6753e888a2655c01aa838',1,'FAST.WhiteScreenManager.isSerialInput']]],
-  ['issharedbyalllanguages_34',['isSharedByAllLanguages',['../class_f_a_s_t_1_1_asset_from_file.html#a77e803dc5c50e98a990c1c0925fde168',1,'FAST::AssetFromFile']]],
-  ['istouchinput_35',['isTouchInput',['../class_f_a_s_t_1_1_white_screen_settings.html#ab5a7e3495bcba7712d5c6fcbc84d554a',1,'FAST.WhiteScreenSettings.isTouchInput'],['../class_f_a_s_t_1_1_white_screen_manager.html#ab5a7e3495bcba7712d5c6fcbc84d554a',1,'FAST.WhiteScreenManager.isTouchInput']]],
-  ['istracked_36',['isTracked',['../class_f_a_s_t_1_1_marker_tool.html#a84382b21c4bd1178fa1b1f966423a0e2',1,'FAST::MarkerTool']]],
-  ['isudpinput_37',['isUdpInput',['../class_f_a_s_t_1_1_white_screen_settings.html#aa3e62195a71e8c8658d86a534d1337ff',1,'FAST.WhiteScreenSettings.isUdpInput'],['../class_f_a_s_t_1_1_white_screen_manager.html#aa3e62195a71e8c8658d86a534d1337ff',1,'FAST.WhiteScreenManager.isUdpInput']]]
+  ['isplaying_32',['isPlaying',['../class_f_a_s_t_1_1_image_player.html#af55f7beec49af3268e5ed9aa85dc8d4f',1,'FAST::ImagePlayer']]],
+  ['isrunning_33',['IsRunning',['../class_f_a_s_t_1_1_audio_player.html#af5cb1246be24f89c7a5f720af0c92559',1,'FAST::AudioPlayer']]],
+  ['isserialinput_34',['isSerialInput',['../class_f_a_s_t_1_1_white_screen_settings.html#ac40c6b1e1ba6753e888a2655c01aa838',1,'FAST.WhiteScreenSettings.isSerialInput'],['../class_f_a_s_t_1_1_white_screen_manager.html#ac40c6b1e1ba6753e888a2655c01aa838',1,'FAST.WhiteScreenManager.isSerialInput']]],
+  ['issharedbyalllanguages_35',['isSharedByAllLanguages',['../class_f_a_s_t_1_1_asset_from_file.html#a77e803dc5c50e98a990c1c0925fde168',1,'FAST::AssetFromFile']]],
+  ['istouchinput_36',['isTouchInput',['../class_f_a_s_t_1_1_white_screen_settings.html#ab5a7e3495bcba7712d5c6fcbc84d554a',1,'FAST.WhiteScreenSettings.isTouchInput'],['../class_f_a_s_t_1_1_white_screen_manager.html#ab5a7e3495bcba7712d5c6fcbc84d554a',1,'FAST.WhiteScreenManager.isTouchInput']]],
+  ['istracked_37',['isTracked',['../class_f_a_s_t_1_1_marker_tool.html#a84382b21c4bd1178fa1b1f966423a0e2',1,'FAST::MarkerTool']]],
+  ['isudpinput_38',['isUdpInput',['../class_f_a_s_t_1_1_white_screen_settings.html#aa3e62195a71e8c8658d86a534d1337ff',1,'FAST.WhiteScreenSettings.isUdpInput'],['../class_f_a_s_t_1_1_white_screen_manager.html#aa3e62195a71e8c8658d86a534d1337ff',1,'FAST.WhiteScreenManager.isUdpInput']]]
 ];

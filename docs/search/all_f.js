@@ -1,7 +1,7 @@
 var searchData=
 [
   ['parentcanvas_0',['parentCanvas',['../class_f_a_s_t_1_1_alignment_rect_transform.html#a73daab13f020ea44ff9127d4913f0cbc',1,'FAST::AlignmentRectTransform']]],
-  ['pause_1',['Pause',['../class_f_a_s_t_1_1_image_player.html#a70babc5227ddd16ca31dccc6cec0bb22',1,'FAST::ImagePlayer']]],
+  ['pause_1',['Pause',['../class_f_a_s_t_1_1_audio_player.html#a70babc5227ddd16ca31dccc6cec0bb22',1,'FAST.AudioPlayer.Pause()'],['../class_f_a_s_t_1_1_image_player.html#a70babc5227ddd16ca31dccc6cec0bb22',1,'FAST.ImagePlayer.Pause()']]],
   ['play_2',['Play',['../class_f_a_s_t_1_1_audio_player.html#a12574569144fb9d22d996965ee42b627',1,'FAST.AudioPlayer.Play()'],['../class_f_a_s_t_1_1_audio_player.html#aa6265ed5008940d1dedea234598439a2',1,'FAST.AudioPlayer.Play(AudioClip[] audioClips)'],['../class_f_a_s_t_1_1_image_player.html#a12574569144fb9d22d996965ee42b627',1,'FAST.ImagePlayer.Play()']]],
   ['playlist_3',['playlist',['../class_f_a_s_t_1_1_audio_player.html#a7825d0e723abc8233ce04bf769fe781e',1,'FAST::AudioPlayer']]],
   ['playonawake_4',['playOnAwake',['../class_f_a_s_t_1_1_image_player.html#a5514e88b715cdc5463f8ddb01883c0f8',1,'FAST::ImagePlayer']]],

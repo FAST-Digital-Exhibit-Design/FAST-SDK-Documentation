@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a99422fa0661fc30f661843fe1a862892" id="r_a99422fa0661fc30f661843fe1a862892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99422fa0661fc30f661843fe1a862892">NewPlaylist</a> (AudioClip[] audioClips)</td></tr>
 <tr class="memdesc:a99422fa0661fc30f661843fe1a862892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the playlist and stop the player.  <br /></td></tr>
 <tr class="separator:a99422fa0661fc30f661843fe1a862892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70babc5227ddd16ca31dccc6cec0bb22" id="r_a70babc5227ddd16ca31dccc6cec0bb22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70babc5227ddd16ca31dccc6cec0bb22">Pause</a> ()</td></tr>
+<tr class="memdesc:a70babc5227ddd16ca31dccc6cec0bb22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pauses the <code>AudioPlayer</code> playback by pausing the underlying <code style="color:DarkRed;">AudioSource</code>.  <br /></td></tr>
+<tr class="separator:a70babc5227ddd16ca31dccc6cec0bb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12574569144fb9d22d996965ee42b627" id="r_a12574569144fb9d22d996965ee42b627"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12574569144fb9d22d996965ee42b627">Play</a> ()</td></tr>
 <tr class="memdesc:a12574569144fb9d22d996965ee42b627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start playing the playlist from the beginning.  <br /></td></tr>
 <tr class="separator:a12574569144fb9d22d996965ee42b627"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a17a237457e57625296e6b24feb19c60a" id="r_a17a237457e57625296e6b24feb19c60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a237457e57625296e6b24feb19c60a">Stop</a> ()</td></tr>
 <tr class="memdesc:a17a237457e57625296e6b24feb19c60a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop playing audio. This does not pause the playlist.  <br /></td></tr>
 <tr class="separator:a17a237457e57625296e6b24feb19c60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861af9a512e5078f089caa86cacd971d" id="r_a861af9a512e5078f089caa86cacd971d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a861af9a512e5078f089caa86cacd971d">UnPause</a> ()</td></tr>
+<tr class="memdesc:a861af9a512e5078f089caa86cacd971d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unpauses the <code>AudioPlayer</code> playback by unpausing the underlying <code style="color:DarkRed;">AudioSource</code>.  <br /></td></tr>
+<tr class="separator:a861af9a512e5078f089caa86cacd971d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -156,6 +162,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:af0cfdad2000f6666b74f837342ede53d" id="r_af0cfdad2000f6666b74f837342ede53d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0cfdad2000f6666b74f837342ede53d">IsPaused</a><code> [get]</code></td></tr>
+<tr class="memdesc:af0cfdad2000f6666b74f837342ede53d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the <code>AudioPlayer</code> playback is paused if <code>true</code>.  <br /></td></tr>
+<tr class="separator:af0cfdad2000f6666b74f837342ede53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5cb1246be24f89c7a5f720af0c92559" id="r_af5cb1246be24f89c7a5f720af0c92559"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5cb1246be24f89c7a5f720af0c92559">IsRunning</a><code> [get]</code></td></tr>
 <tr class="memdesc:af5cb1246be24f89c7a5f720af0c92559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the <code>AudioPlayer</code> is running a play or stop command if <code>true</code>.  <br /></td></tr>
 <tr class="separator:af5cb1246be24f89c7a5f720af0c92559"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,6 +263,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a70babc5227ddd16ca31dccc6cec0bb22" name="a70babc5227ddd16ca31dccc6cec0bb22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70babc5227ddd16ca31dccc6cec0bb22">&#9670;&#160;</a></span>Pause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pause </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pauses the <code>AudioPlayer</code> playback by pausing the underlying <code style="color:DarkRed;">AudioSource</code>. </p>
+
+</div>
+</div>
 <a id="a12574569144fb9d22d996965ee42b627" name="a12574569144fb9d22d996965ee42b627"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12574569144fb9d22d996965ee42b627">&#9670;&#160;</a></span>Play() <span class="overload">[1/2]</span></h2>
 
@@ -317,6 +345,25 @@ Private Attributes</h2></td></tr>
 
 <p>Stop playing audio. This does not pause the playlist. </p>
 <p>If you play after calling <code>Stop()</code>, the playlist will restart from the beginning. </p>
+
+</div>
+</div>
+<a id="a861af9a512e5078f089caa86cacd971d" name="a861af9a512e5078f089caa86cacd971d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861af9a512e5078f089caa86cacd971d">&#9670;&#160;</a></span>UnPause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UnPause </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unpauses the <code>AudioPlayer</code> playback by unpausing the underlying <code style="color:DarkRed;">AudioSource</code>. </p>
 
 </div>
 </div>
@@ -454,6 +501,30 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="af0cfdad2000f6666b74f837342ede53d" name="af0cfdad2000f6666b74f837342ede53d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0cfdad2000f6666b74f837342ede53d">&#9670;&#160;</a></span>IsPaused</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IsPaused</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indicates the <code>AudioPlayer</code> playback is paused if <code>true</code>. </p>
+
+</div>
+</div>
 <a id="af5cb1246be24f89c7a5f720af0c92559" name="af5cb1246be24f89c7a5f720af0c92559"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5cb1246be24f89c7a5f720af0c92559">&#9670;&#160;</a></span>IsRunning</h2>
 
