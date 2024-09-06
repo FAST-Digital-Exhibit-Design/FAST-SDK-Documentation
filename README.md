@@ -1,6 +1,6 @@
 # FAST-SDK-Documentation
 
-[Reference Manual](https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK-Documentation/) 
+[Coding Reference](https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK-Documentation/) 
 files for the [FAST SDK](https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK).
 
 ## Contributions
