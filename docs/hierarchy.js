@@ -49,17 +49,15 @@ var hierarchy =
     ] ],
     [ "MarkerTrackingSettings", "class_f_a_s_t_1_1_marker_tracking_settings.html", null ],
     [ "MarkerTrackingSystem", "class_f_a_s_t_1_1_marker_tracking_system.html", null ],
-    [ "NamedObject< T >", "struct_f_a_s_t_1_1_named_object.html", null ],
-    [ "NamedObjects< T >", "struct_f_a_s_t_1_1_named_objects.html", null ],
-    [ "ScreenManagerTemplate< T >", "class_f_a_s_t_1_1_screen_manager_template.html", null ],
+    [ "NamedObject< T >", "struct_f_a_s_t_1_1_named_object-1-g.html", null ],
+    [ "NamedObjects< T >", "struct_f_a_s_t_1_1_named_objects-1-g.html", null ],
+    [ "ScreenManagerTemplate< T >", "class_f_a_s_t_1_1_screen_manager_template-1-g.html", null ],
     [ "ScreenTemplate", "class_f_a_s_t_1_1_screen_template.html", null ],
     [ "SerialConnection", "class_f_a_s_t_1_1_serial_connection.html", null ],
     [ "SerialConnectionSettings", "class_f_a_s_t_1_1_serial_connection_settings.html", null ],
-    [ "Singleton< T >", "class_f_a_s_t_1_1_singleton.html", [
-      [ "SingletonWithInstance< T >", "class_f_a_s_t_1_1_singleton_with_instance.html", null ]
-    ] ],
-    [ "Singleton< Application >", "class_f_a_s_t_1_1_singleton.html", [
-      [ "Application", "class_f_a_s_t_1_1_application.html", null ]
+    [ "Singleton< T >", "class_f_a_s_t_1_1_singleton-1-g.html", [
+      [ "Application", "class_f_a_s_t_1_1_application.html", null ],
+      [ "SingletonWithInstance< T >", "class_f_a_s_t_1_1_singleton_with_instance-1-g.html", null ]
     ] ],
     [ "StartupErrorMessageEvent", "class_f_a_s_t_1_1_startup_error_message_event.html", null ],
     [ "StartupLoader", "class_f_a_s_t_1_1_startup_loader.html", [

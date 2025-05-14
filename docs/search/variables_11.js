@@ -1,8 +1,8 @@
 var searchData=
 [
   ['scale_0',['scale',['../class_f_a_s_t_1_1_alignment_transform_settings.html#afc6e781faaf3d7643cc787f69606e7a5',1,'FAST::AlignmentTransformSettings']]],
-  ['screens_1',['screens',['../class_f_a_s_t_1_1_screen_manager_template.html#a8ae4c50b02424594461e873aef970969',1,'FAST::ScreenManagerTemplate']]],
-  ['screenslist_2',['screensList',['../class_f_a_s_t_1_1_screen_manager_template.html#a79bb3222cc71ef7775c0a3cc8a03622e',1,'FAST::ScreenManagerTemplate']]],
+  ['screens_1',['screens',['../class_f_a_s_t_1_1_screen_manager_template-1-g.html#a8ae4c50b02424594461e873aef970969',1,'FAST::ScreenManagerTemplate-1-g']]],
+  ['screenslist_2',['screensList',['../class_f_a_s_t_1_1_screen_manager_template-1-g.html#a79bb3222cc71ef7775c0a3cc8a03622e',1,'FAST::ScreenManagerTemplate-1-g']]],
   ['searchmethod_3',['searchMethod',['../class_f_a_s_t_1_1_serial_connection_loader.html#a54e89ed91c1a3fa6d91e3ea914bba026',1,'FAST::SerialConnectionLoader']]],
   ['searchname_4',['searchName',['../class_f_a_s_t_1_1_serial_connection_loader.html#a4b4b57b2f1adea2ff041037bc12499c8',1,'FAST::SerialConnectionLoader']]],
   ['serialconnections_5',['serialConnections',['../class_f_a_s_t_1_1_application.html#ad0ea12065bb1def27f512ed32db3e483',1,'FAST::Application']]],

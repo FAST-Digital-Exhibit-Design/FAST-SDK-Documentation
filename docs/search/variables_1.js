@@ -12,7 +12,7 @@ var searchData=
   ['assetsettings_9',['assetSettings',['../class_f_a_s_t_1_1_base_settings.html#a3106c6cd871b9f8de290b36896b6d272',1,'FAST::BaseSettings']]],
   ['assetspath_10',['assetsPath',['../class_f_a_s_t_1_1_assets_loader.html#ab334e3a133ad7a420e49134f21924159',1,'FAST::AssetsLoader']]],
   ['audioclip_11',['audioClip',['../class_f_a_s_t_1_1_audio_clip_from_file.html#a3fa70ac266c50a14ea77980a62190577',1,'FAST::AudioClipFromFile']]],
-  ['audiolut_12',['audioLUT',['../class_f_a_s_t_1_1_screen_manager_template.html#a31d42264ee45fe3f4d5a8965c417f756',1,'FAST.ScreenManagerTemplate.audioLUT'],['../class_f_a_s_t_1_1_screen_template.html#a31d42264ee45fe3f4d5a8965c417f756',1,'FAST.ScreenTemplate.audioLUT']]],
-  ['audioplayer_13',['audioPlayer',['../class_f_a_s_t_1_1_screen_manager_template.html#aabe0c5f5fc982570e4e794c4b6023eb8',1,'FAST.ScreenManagerTemplate.audioPlayer'],['../class_f_a_s_t_1_1_screen_template.html#aabe0c5f5fc982570e4e794c4b6023eb8',1,'FAST.ScreenTemplate.audioPlayer']]],
+  ['audiolut_12',['audioLUT',['../class_f_a_s_t_1_1_screen_manager_template-1-g.html#a31d42264ee45fe3f4d5a8965c417f756',1,'FAST.ScreenManagerTemplate-1-g.audioLUT'],['../class_f_a_s_t_1_1_screen_template.html#a31d42264ee45fe3f4d5a8965c417f756',1,'FAST.ScreenTemplate.audioLUT']]],
+  ['audioplayer_13',['audioPlayer',['../class_f_a_s_t_1_1_screen_manager_template-1-g.html#aabe0c5f5fc982570e4e794c4b6023eb8',1,'FAST.ScreenManagerTemplate-1-g.audioPlayer'],['../class_f_a_s_t_1_1_screen_template.html#aabe0c5f5fc982570e4e794c4b6023eb8',1,'FAST.ScreenTemplate.audioPlayer']]],
   ['audiosource_14',['audioSource',['../class_f_a_s_t_1_1_audio_source_from_file.html#a2524e2e607b6f67669eccd328ac1e997',1,'FAST::AudioSourceFromFile']]]
 ];

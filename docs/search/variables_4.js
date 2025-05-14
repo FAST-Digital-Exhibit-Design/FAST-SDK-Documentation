@@ -13,7 +13,7 @@ var searchData=
   ['dicevalues_10',['diceValues',['../class_f_a_s_t_1_1_marker_dice.html#a2c5285bc1bd7bcf46715d27c84bd8faf',1,'FAST::MarkerDice']]],
   ['dicevaluetext_11',['diceValueText',['../class_f_a_s_t_1_1_marker_dice.html#a05d05f0a421735df8033b4b8160011c7',1,'FAST::MarkerDice']]],
   ['displaysettings_12',['displaySettings',['../class_f_a_s_t_1_1_base_settings.html#a79f886f8ae36f5f3553bb7ce334ff568',1,'FAST::BaseSettings']]],
-  ['dontdestroyonload_13',['dontDestroyOnLoad',['../class_f_a_s_t_1_1_singleton.html#a01058a1e4d8f4c5dae35a8f5b17d3023',1,'FAST::Singleton']]],
+  ['dontdestroyonload_13',['dontDestroyOnLoad',['../class_f_a_s_t_1_1_singleton-1-g.html#a01058a1e4d8f4c5dae35a8f5b17d3023',1,'FAST::Singleton-1-g']]],
   ['drawingcamera_14',['drawingCamera',['../class_f_a_s_t_1_1_alignment_transform.html#a6eda44b9549587f01664591b20b5545c',1,'FAST::AlignmentTransform']]],
   ['durationminutes_15',['durationMinutes',['../class_f_a_s_t_1_1_white_screen_settings.html#a07f9d02c31c4942183e5cfa6f19683d4',1,'FAST.WhiteScreenSettings.durationMinutes'],['../class_f_a_s_t_1_1_white_screen_manager.html#a07f9d02c31c4942183e5cfa6f19683d4',1,'FAST.WhiteScreenManager.durationMinutes']]]
 ];
