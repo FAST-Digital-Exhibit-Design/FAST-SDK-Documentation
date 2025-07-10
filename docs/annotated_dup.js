@@ -50,6 +50,7 @@ var annotated_dup =
       [ "SettingsLoader", "class_f_a_s_t_1_1_settings_loader.html", "class_f_a_s_t_1_1_settings_loader" ],
       [ "Singleton< T >", "class_f_a_s_t_1_1_singleton-1-g.html", "class_f_a_s_t_1_1_singleton-1-g" ],
       [ "SingletonWithInstance< T >", "class_f_a_s_t_1_1_singleton_with_instance-1-g.html", "class_f_a_s_t_1_1_singleton_with_instance-1-g" ],
+      [ "SpriteFromFile", "class_f_a_s_t_1_1_sprite_from_file.html", "class_f_a_s_t_1_1_sprite_from_file" ],
       [ "StartupErrorMessageEvent", "class_f_a_s_t_1_1_startup_error_message_event.html", null ],
       [ "StartupLoader", "class_f_a_s_t_1_1_startup_loader.html", "class_f_a_s_t_1_1_startup_loader" ],
       [ "StartupLoadingMessageEvent", "class_f_a_s_t_1_1_startup_loading_message_event.html", null ],

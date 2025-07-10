@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">FAST SDK Coding Reference<span id="projectnumber">&#160;1.0.2</span>
+   <div id="projectname">FAST SDK Coding Reference<span id="projectnumber">&#160;1.0.3</span>
    </div>
   </td>
  </tr>
@@ -121,8 +121,9 @@ Inheritance diagram for AssetFromFile:</div>
 <area href="class_f_a_s_t_1_1_audio_source_from_file.html" title="A class to help use an audio asset loaded from the file system as AudioSource.clip for the current sk..." alt="AudioSourceFromFile" shape="rect" coords="146,56,282,80"/>
 <area href="class_f_a_s_t_1_1_image_from_file.html" title="A class to help use an image asset loaded from the file system as Image.sprite for the current skin i..." alt="ImageFromFile" shape="rect" coords="292,56,428,80"/>
 <area href="class_f_a_s_t_1_1_image_player_from_file.html" title="A class to help use an image sequence asset loaded from the file system as FAST.ImagePlayer...." alt="ImagePlayerFromFile" shape="rect" coords="438,56,574,80"/>
-<area href="class_f_a_s_t_1_1_texture_from_file.html" title="A class to help use an image asset loaded from the file system as Texture2D for the current skin in m..." alt="TextureFromFile" shape="rect" coords="584,56,720,80"/>
-<area href="class_f_a_s_t_1_1_video_player_from_file.html" title="A class to help use a video asset loaded from the file system as VideoPlayer.url for the current skin..." alt="VideoPlayerFromFile" shape="rect" coords="730,56,866,80"/>
+<area href="class_f_a_s_t_1_1_sprite_from_file.html" title="A class to help use an image asset loaded from the file system as Sprite for the current skin in mult..." alt="SpriteFromFile" shape="rect" coords="584,56,720,80"/>
+<area href="class_f_a_s_t_1_1_texture_from_file.html" title="A class to help use an image asset loaded from the file system as Texture2D for the current skin in m..." alt="TextureFromFile" shape="rect" coords="730,56,866,80"/>
+<area href="class_f_a_s_t_1_1_video_player_from_file.html" title="A class to help use a video asset loaded from the file system as VideoPlayer.url for the current skin..." alt="VideoPlayerFromFile" shape="rect" coords="876,56,1012,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -156,6 +157,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:affb6ac8f8f08d515a8b74f5c213c2c52" id="r_affb6ac8f8f08d515a8b74f5c213c2c52"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb6ac8f8f08d515a8b74f5c213c2c52">Awake</a> ()</td></tr>
 <tr class="memdesc:affb6ac8f8f08d515a8b74f5c213c2c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the script is loaded, <a class="el" href="#aed279fb74fa8b4309378ca27ba27e07c" title="Updates FAST.AssetFromFile.fileName using language, FAST.AssetSettings, FAST.AssetFromFile....">FAST.AssetFromFile.UpdateFileName(string)</a> is called to initialize <a class="el" href="#a71f006e8d6ac2a5d94354155a0da69f8" title="Runtime  The full file name combined from the FAST.AssetFromFile.prefixFileName, FAST....">FAST.AssetFromFile.fileName</a>.  <br /></td></tr>
 <tr class="separator:affb6ac8f8f08d515a8b74f5c213c2c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4699c8fabfd9f4b74a527210471563" id="r_a6e4699c8fabfd9f4b74a527210471563"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4699c8fabfd9f4b74a527210471563">LogAssetNotLoadedError</a> ()</td></tr>
+<tr class="memdesc:a6e4699c8fabfd9f4b74a527210471563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this to log an error when an <a class="el" href="class_f_a_s_t_1_1_asset_from_file.html" title="A base class to help use an asset loaded from the file system for the current skin in multiple langua...">FAST.AssetFromFile</a> cannot be loaded.  <br /></td></tr>
+<tr class="separator:a6e4699c8fabfd9f4b74a527210471563"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ce8511fe676da6435e44631c16cdf5d" id="r_a1ce8511fe676da6435e44631c16cdf5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ce8511fe676da6435e44631c16cdf5d">SetNameWithFileExtension</a> ()</td></tr>
 <tr class="memdesc:a1ce8511fe676da6435e44631c16cdf5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">When you right-click on <a class="el" href="#ac2169bc23b79fedde7f1acf724493190" title="Inspector, Code  The name of the asset with the file extension, but without the prefix or suffix.">FAST.AssetFromFile.baseFileName</a> in the Inspector, this function will run in the Editor to get the filename of an asset assigned to a corresponding <code style="color:DarkRed;">Component</code>.  <br /></td></tr>
 <tr class="separator:a1ce8511fe676da6435e44631c16cdf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,6 +262,33 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a6e4699c8fabfd9f4b74a527210471563" name="a6e4699c8fabfd9f4b74a527210471563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4699c8fabfd9f4b74a527210471563">&#9670;&#160;</a></span>LogAssetNotLoadedError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LogAssetNotLoadedError </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call this to log an error when an <a class="el" href="class_f_a_s_t_1_1_asset_from_file.html" title="A base class to help use an asset loaded from the file system for the current skin in multiple langua...">FAST.AssetFromFile</a> cannot be loaded. </p>
 
 </div>
 </div>

@@ -12,6 +12,7 @@ var hierarchy =
       [ "AudioSourceFromFile", "class_f_a_s_t_1_1_audio_source_from_file.html", null ],
       [ "ImageFromFile", "class_f_a_s_t_1_1_image_from_file.html", null ],
       [ "ImagePlayerFromFile", "class_f_a_s_t_1_1_image_player_from_file.html", null ],
+      [ "SpriteFromFile", "class_f_a_s_t_1_1_sprite_from_file.html", null ],
       [ "TextureFromFile", "class_f_a_s_t_1_1_texture_from_file.html", null ],
       [ "VideoPlayerFromFile", "class_f_a_s_t_1_1_video_player_from_file.html", null ]
     ] ],

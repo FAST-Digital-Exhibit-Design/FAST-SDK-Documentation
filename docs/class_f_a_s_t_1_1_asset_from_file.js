@@ -3,6 +3,7 @@ var class_f_a_s_t_1_1_asset_from_file =
     [ "ImageSettings", "class_f_a_s_t_1_1_asset_from_file_1_1_image_settings.html", "class_f_a_s_t_1_1_asset_from_file_1_1_image_settings" ],
     [ "Awake", "class_f_a_s_t_1_1_asset_from_file.html#affb6ac8f8f08d515a8b74f5c213c2c52", null ],
     [ "Load", "class_f_a_s_t_1_1_asset_from_file.html#a3f424a51244aee98ce5aee23cb09fe24", null ],
+    [ "LogAssetNotLoadedError", "class_f_a_s_t_1_1_asset_from_file.html#a6e4699c8fabfd9f4b74a527210471563", null ],
     [ "SetNameWithFileExtension", "class_f_a_s_t_1_1_asset_from_file.html#a1ce8511fe676da6435e44631c16cdf5d", null ],
     [ "UpdateFileName", "class_f_a_s_t_1_1_asset_from_file.html#aed279fb74fa8b4309378ca27ba27e07c", null ],
     [ "baseFileName", "class_f_a_s_t_1_1_asset_from_file.html#ac2169bc23b79fedde7f1acf724493190", null ],
