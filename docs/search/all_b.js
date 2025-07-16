@@ -17,9 +17,10 @@ var searchData=
   ['localreceiveport_14',['localReceivePort',['../class_f_a_s_t_1_1_udp_connection.html#a827e6ad62a6fdae01f86ee53577e7de0',1,'FAST.UdpConnection.localReceivePort'],['../class_f_a_s_t_1_1_udp_connection_settings.html#a827e6ad62a6fdae01f86ee53577e7de0',1,'FAST.UdpConnectionSettings.localReceivePort']]],
   ['localsendport_15',['localSendPort',['../class_f_a_s_t_1_1_udp_connection.html#a148203d40c69f5fa9b38c3057643a150',1,'FAST.UdpConnection.localSendPort'],['../class_f_a_s_t_1_1_udp_connection_settings.html#a148203d40c69f5fa9b38c3057643a150',1,'FAST.UdpConnectionSettings.localSendPort']]],
   ['logassetnotloadederror_16',['LogAssetNotLoadedError',['../class_f_a_s_t_1_1_asset_from_file.html#a6e4699c8fabfd9f4b74a527210471563',1,'FAST::AssetFromFile']]],
-  ['logkeys_17',['logKeys',['../class_f_a_s_t_1_1_key_binding.html#a2c2b5405e7f07d6f062add76e3a9c4d5',1,'FAST::KeyBinding']]],
-  ['logsdirectory_18',['logsDirectory',['../class_f_a_s_t_1_1_application.html#ac30700d2c9b17c5f334ed9dd2f888785',1,'FAST::Application']]],
-  ['logsettings_19',['LogSettings',['../class_f_a_s_t_1_1_log_settings.html',1,'FAST']]],
-  ['logsettings_20',['logSettings',['../class_f_a_s_t_1_1_base_settings.html#aa7cb41e307c0b1f78716330f6d34946b',1,'FAST::BaseSettings']]],
-  ['loopplayback_21',['loopPlayback',['../class_f_a_s_t_1_1_image_player.html#a8f70f9e7c430877124d32551926cfd83',1,'FAST::ImagePlayer']]]
+  ['logfileextensionmissingerror_17',['LogFileExtensionMissingError',['../class_f_a_s_t_1_1_asset_from_file.html#ab96ce01c26aff4dc4cb764bcad81b4cc',1,'FAST::AssetFromFile']]],
+  ['logkeys_18',['logKeys',['../class_f_a_s_t_1_1_key_binding.html#a2c2b5405e7f07d6f062add76e3a9c4d5',1,'FAST::KeyBinding']]],
+  ['logsdirectory_19',['logsDirectory',['../class_f_a_s_t_1_1_application.html#ac30700d2c9b17c5f334ed9dd2f888785',1,'FAST::Application']]],
+  ['logsettings_20',['LogSettings',['../class_f_a_s_t_1_1_log_settings.html',1,'FAST']]],
+  ['logsettings_21',['logSettings',['../class_f_a_s_t_1_1_base_settings.html#aa7cb41e307c0b1f78716330f6d34946b',1,'FAST::BaseSettings']]],
+  ['loopplayback_22',['loopPlayback',['../class_f_a_s_t_1_1_image_player.html#a8f70f9e7c430877124d32551926cfd83',1,'FAST::ImagePlayer']]]
 ];

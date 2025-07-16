@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"class_f_a_s_t_1_1_white_screen_manager.html#ae1e4d8f5432dca4eb01933ab10d3bc6b":[0,0,0,64,1],
+"class_f_a_s_t_1_1_white_screen_settings.html":[0,0,0,65],
 "class_f_a_s_t_1_1_white_screen_settings.html#a07f9d02c31c4942183e5cfa6f19683d4":[0,0,0,65,0],
 "class_f_a_s_t_1_1_white_screen_settings.html#a111eef5c81ee1446baa7d62143a265ff":[0,0,0,65,9],
 "class_f_a_s_t_1_1_white_screen_settings.html#a5d8f96950fd7ac3e4c5695ecd418a1a9":[0,0,0,65,8],

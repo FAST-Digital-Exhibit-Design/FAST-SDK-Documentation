@@ -104,6 +104,7 @@ $(function(){initNavTree('class_f_a_s_t_1_1_asset_from_file.html',''); initResiz
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_f_a_s_t_1_1_asset_from_file-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AssetFromFile Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
@@ -135,6 +136,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a66055cd9b858812fb1fc40a495b1e6a9" id="r_a66055cd9b858812fb1fc40a495b1e6a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66055cd9b858812fb1fc40a495b1e6a9">IsAssetAvailable</a> (string language)</td></tr>
+<tr class="memdesc:a66055cd9b858812fb1fc40a495b1e6a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up the asset from <a class="el" href="class_f_a_s_t_1_1_application.html#aa2947eaa46f0199a1f4bd336d06538ad" title="The dictionary of assets from file.">FAST.Application.assets</a> dictionary using <code>language</code> and <a class="el" href="#a71f006e8d6ac2a5d94354155a0da69f8" title="Runtime  The full file name combined from the FAST.AssetFromFile.prefixFileName, FAST....">FAST.AssetFromFile.fileName</a> to see if the file exists.  <br /></td></tr>
+<tr class="separator:a66055cd9b858812fb1fc40a495b1e6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f424a51244aee98ce5aee23cb09fe24" id="r_a3f424a51244aee98ce5aee23cb09fe24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f424a51244aee98ce5aee23cb09fe24">Load</a> (string language)</td></tr>
 <tr class="memdesc:a3f424a51244aee98ce5aee23cb09fe24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the asset from <a class="el" href="class_f_a_s_t_1_1_application.html#aa2947eaa46f0199a1f4bd336d06538ad" title="The dictionary of assets from file.">FAST.Application.assets</a> dictionary using <code>language</code> and <a class="el" href="#a71f006e8d6ac2a5d94354155a0da69f8" title="Runtime  The full file name combined from the FAST.AssetFromFile.prefixFileName, FAST....">FAST.AssetFromFile.fileName</a>.  <br /></td></tr>
 <tr class="separator:a3f424a51244aee98ce5aee23cb09fe24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +201,12 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a699d14a270a0027233f4a5cb13e54d35" id="r_a699d14a270a0027233f4a5cb13e54d35"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a699d14a270a0027233f4a5cb13e54d35">kSkinTag</a> = &quot;#Skin&quot;</td></tr>
 <tr class="memdesc:a699d14a270a0027233f4a5cb13e54d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this string in the <a class="el" href="class_f_a_s_t_1_1_asset_settings.html#ab9f8910b2b5f8f0bfa1c4b57eb53fc9b" title="Settings, Code  A string that will be added to the front of the FAST.AssetFromFile....">FAST.AssetSettings.prefixFileName</a> or <a class="el" href="class_f_a_s_t_1_1_asset_settings.html#a0501e480a37a326c1aae0229b55453f7" title="Settings, Code  A string that will be inserted to the end of the FAST.AssetFromFile....">FAST.AssetSettings.suffixFileName</a> to be replaced with the FAST.AssetSettings.skin at runtime.  <br /></td></tr>
 <tr class="separator:a699d14a270a0027233f4a5cb13e54d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab96ce01c26aff4dc4cb764bcad81b4cc" id="r_ab96ce01c26aff4dc4cb764bcad81b4cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab96ce01c26aff4dc4cb764bcad81b4cc">LogFileExtensionMissingError</a> ()</td></tr>
+<tr class="memdesc:ab96ce01c26aff4dc4cb764bcad81b4cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this to log an error when a file extension isn't specified for the <a class="el" href="#ac2169bc23b79fedde7f1acf724493190" title="Inspector, Code  The name of the asset with the file extension, but without the prefix or suffix.">FAST.AssetFromFile.baseFileName</a>.  <br /></td></tr>
+<tr class="separator:ab96ce01c26aff4dc4cb764bcad81b4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A base class to help use an asset loaded from the file system for the current skin in multiple languages. </p>
@@ -229,6 +239,31 @@ Static Protected Attributes</h2></td></tr>
 <p>When the script is loaded, <a class="el" href="#aed279fb74fa8b4309378ca27ba27e07c" title="Updates FAST.AssetFromFile.fileName using language, FAST.AssetSettings, FAST.AssetFromFile....">FAST.AssetFromFile.UpdateFileName(string)</a> is called to initialize <a class="el" href="#a71f006e8d6ac2a5d94354155a0da69f8" title="Runtime  The full file name combined from the FAST.AssetFromFile.prefixFileName, FAST....">FAST.AssetFromFile.fileName</a>. </p>
 
 <p>Reimplemented in <a class="el" href="class_f_a_s_t_1_1_audio_source_from_file.html#aa03e617e0a51b3f91f3ab6b34f625fed">AudioSourceFromFile</a>, <a class="el" href="class_f_a_s_t_1_1_image_from_file.html#aa03e617e0a51b3f91f3ab6b34f625fed">ImageFromFile</a>, <a class="el" href="class_f_a_s_t_1_1_image_player_from_file.html#aa03e617e0a51b3f91f3ab6b34f625fed">ImagePlayerFromFile</a>, and <a class="el" href="class_f_a_s_t_1_1_video_player_from_file.html#aa03e617e0a51b3f91f3ab6b34f625fed">VideoPlayerFromFile</a>.</p>
+
+</div>
+</div>
+<a id="a66055cd9b858812fb1fc40a495b1e6a9" name="a66055cd9b858812fb1fc40a495b1e6a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66055cd9b858812fb1fc40a495b1e6a9">&#9670;&#160;</a></span>IsAssetAvailable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IsAssetAvailable </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks up the asset from <a class="el" href="class_f_a_s_t_1_1_application.html#aa2947eaa46f0199a1f4bd336d06538ad" title="The dictionary of assets from file.">FAST.Application.assets</a> dictionary using <code>language</code> and <a class="el" href="#a71f006e8d6ac2a5d94354155a0da69f8" title="Runtime  The full file name combined from the FAST.AssetFromFile.prefixFileName, FAST....">FAST.AssetFromFile.fileName</a> to see if the file exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">language</td><td>The language of the asset to check.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -289,6 +324,33 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Call this to log an error when an <a class="el" href="class_f_a_s_t_1_1_asset_from_file.html" title="A base class to help use an asset loaded from the file system for the current skin in multiple langua...">FAST.AssetFromFile</a> cannot be loaded. </p>
+
+</div>
+</div>
+<a id="ab96ce01c26aff4dc4cb764bcad81b4cc" name="ab96ce01c26aff4dc4cb764bcad81b4cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab96ce01c26aff4dc4cb764bcad81b4cc">&#9670;&#160;</a></span>LogFileExtensionMissingError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LogFileExtensionMissingError </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call this to log an error when a file extension isn't specified for the <a class="el" href="#ac2169bc23b79fedde7f1acf724493190" title="Inspector, Code  The name of the asset with the file extension, but without the prefix or suffix.">FAST.AssetFromFile.baseFileName</a>. </p>
 
 </div>
 </div>
