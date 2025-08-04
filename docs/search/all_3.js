@@ -13,14 +13,13 @@ var searchData=
   ['checkudpinput_10',['checkUdpInput',['../class_f_a_s_t_1_1_idle_timer.html#aed72eca99c7c74ae9c38cfd7b329fa75',1,'FAST::IdleTimer']]],
   ['clearplaylist_11',['ClearPlaylist',['../class_f_a_s_t_1_1_audio_player.html#a0e8bff56916740d5ce6470c672681135',1,'FAST::AudioPlayer']]],
   ['coding_20reference_12',['FAST SDK Coding Reference',['../index.html',1,'']]],
-  ['comport_13',['comPort',['../class_f_a_s_t_1_1_serial_connection.html#a276ec2f35b57f11c70fdad9a5f0eb138',1,'FAST.SerialConnection.comPort'],['../class_f_a_s_t_1_1_serial_connection_settings.html#a276ec2f35b57f11c70fdad9a5f0eb138',1,'FAST.SerialConnectionSettings.comPort']]],
-  ['configsettings_14',['ConfigSettings',['../class_f_a_s_t_1_1_config_settings.html',1,'FAST']]],
-  ['configsettings_15',['configSettings',['../class_f_a_s_t_1_1_settings_loader.html#a790e7d09f9274f0d81a7e025a15a501b',1,'FAST::SettingsLoader']]],
-  ['copypreviouslog_16',['CopyPreviousLog',['../class_f_a_s_t_1_1_application.html#a4adfe56465f754cdd44ee298f348a851',1,'FAST::Application']]],
-  ['createchannelclip_17',['CreateChannelClip',['../class_f_a_s_t_1_1_audio_clip_extensions.html#ac74de9f53e63ae4e434ce1431c9729ed',1,'FAST::AudioClipExtensions']]],
-  ['createpauseclip_18',['CreatePauseClip',['../class_f_a_s_t_1_1_audio_clip_extensions.html#adacfd78d7798ccf1f0b8fa41753cd6c4',1,'FAST::AudioClipExtensions']]],
-  ['ctrl_19',['ctrl',['../class_f_a_s_t_1_1_key_binding_1_1_key_command.html#ab058dce7480bbadcc31a6b203c69029d',1,'FAST::KeyBinding::KeyCommand']]],
-  ['currentframe_20',['currentFrame',['../class_f_a_s_t_1_1_image_player.html#ad7b94139e16da2759ff942c971b0bc90',1,'FAST::ImagePlayer']]],
-  ['currentscreenname_21',['currentScreenName',['../class_f_a_s_t_1_1_screen_manager_template-1-g.html#ac0dcf9c149402b1e12caf29fba765168',1,'FAST::ScreenManagerTemplate-1-g']]],
-  ['currenttime_22',['currentTime',['../class_f_a_s_t_1_1_image_player.html#aa1e945429dacc086ea2db82a7d7cd9af',1,'FAST::ImagePlayer']]]
+  ['configsettings_13',['ConfigSettings',['../class_f_a_s_t_1_1_config_settings.html',1,'FAST']]],
+  ['configsettings_14',['configSettings',['../class_f_a_s_t_1_1_settings_loader.html#a790e7d09f9274f0d81a7e025a15a501b',1,'FAST::SettingsLoader']]],
+  ['copypreviouslog_15',['CopyPreviousLog',['../class_f_a_s_t_1_1_application.html#a4adfe56465f754cdd44ee298f348a851',1,'FAST::Application']]],
+  ['createchannelclip_16',['CreateChannelClip',['../class_f_a_s_t_1_1_audio_clip_extensions.html#ac74de9f53e63ae4e434ce1431c9729ed',1,'FAST::AudioClipExtensions']]],
+  ['createpauseclip_17',['CreatePauseClip',['../class_f_a_s_t_1_1_audio_clip_extensions.html#adacfd78d7798ccf1f0b8fa41753cd6c4',1,'FAST::AudioClipExtensions']]],
+  ['ctrl_18',['ctrl',['../class_f_a_s_t_1_1_key_binding_1_1_key_command.html#ab058dce7480bbadcc31a6b203c69029d',1,'FAST::KeyBinding::KeyCommand']]],
+  ['currentframe_19',['currentFrame',['../class_f_a_s_t_1_1_image_player.html#ad7b94139e16da2759ff942c971b0bc90',1,'FAST::ImagePlayer']]],
+  ['currentscreenname_20',['currentScreenName',['../class_f_a_s_t_1_1_screen_manager_template-1-g.html#ac0dcf9c149402b1e12caf29fba765168',1,'FAST::ScreenManagerTemplate-1-g']]],
+  ['currenttime_21',['currentTime',['../class_f_a_s_t_1_1_image_player.html#aa1e945429dacc086ea2db82a7d7cd9af',1,'FAST::ImagePlayer']]]
 ];

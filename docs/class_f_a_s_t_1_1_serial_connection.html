@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">FAST SDK Coding Reference<span id="projectnumber">&#160;1.0.3</span>
+   <div id="projectname">FAST SDK Coding Reference<span id="projectnumber">&#160;1.0.4</span>
    </div>
   </td>
  </tr>
@@ -134,10 +134,6 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ac523b4930f24f2a1635310251ffea465"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b style="color: DarkCyan;">Settings, Inspector, Code</b><br  />
  The baud rate to use for serial communication.  <br /></td></tr>
 <tr class="separator:ac523b4930f24f2a1635310251ffea465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a276ec2f35b57f11c70fdad9a5f0eb138" id="r_a276ec2f35b57f11c70fdad9a5f0eb138"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a276ec2f35b57f11c70fdad9a5f0eb138">comPort</a> = 1</td></tr>
-<tr class="memdesc:a276ec2f35b57f11c70fdad9a5f0eb138"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b style="color: DarkCyan;">Settings, Inspector, Code</b><br  />
- The COM port to use for serial communication.  <br /></td></tr>
-<tr class="separator:a276ec2f35b57f11c70fdad9a5f0eb138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad97b05b88ce9080f35b157cfacc8eb69" id="r_ad97b05b88ce9080f35b157cfacc8eb69"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad97b05b88ce9080f35b157cfacc8eb69">id</a></td></tr>
 <tr class="memdesc:ad97b05b88ce9080f35b157cfacc8eb69"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b style="color: DarkCyan;">Settings, Inspector, Code</b><br  />
  Identifies this instance.  <br /></td></tr>
@@ -150,6 +146,10 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:aa3953622be1d408c5ce83fc60a2e81c9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b style="color: DarkCyan;">Inspector, Code</b><br  />
  Calls the function(s) subscribed to this <code style="color:DarkRed;">UnityAction</code> when data is received.  <br /></td></tr>
 <tr class="separator:aa3953622be1d408c5ce83fc60a2e81c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae969f7204a7e846b98a88497dd85f672" id="r_ae969f7204a7e846b98a88497dd85f672"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae969f7204a7e846b98a88497dd85f672">port</a> = &quot;1&quot;</td></tr>
+<tr class="memdesc:ae969f7204a7e846b98a88497dd85f672"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b style="color: DarkCyan;">Settings, Inspector, Code</b><br  />
+ The port to use for serial communication.  <br /></td></tr>
+<tr class="separator:ae969f7204a7e846b98a88497dd85f672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49187ca59813149330a26189fabc97ff" id="r_a49187ca59813149330a26189fabc97ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49187ca59813149330a26189fabc97ff">readTimeout</a> = 10</td></tr>
 <tr class="memdesc:a49187ca59813149330a26189fabc97ff"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b style="color: DarkCyan;">Inspector, Code</b><br  />
  The number of milliseconds before a time-out occurs when a read operation does not finish.  <br /></td></tr>
@@ -288,24 +288,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a276ec2f35b57f11c70fdad9a5f0eb138" name="a276ec2f35b57f11c70fdad9a5f0eb138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a276ec2f35b57f11c70fdad9a5f0eb138">&#9670;&#160;</a></span>comPort</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int comPort = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><b style="color: DarkCyan;">Settings, Inspector, Code</b><br  />
- The COM port to use for serial communication. </p>
-<p>Loaded from <a class="el" href="class_f_a_s_t_1_1_serial_connection_settings.html" title="A data structure to store FAST.SerialConnection and FAST.SerialConnectionLoader settings.">FAST.SerialConnectionSettings</a> at runtime. </p>
-
-</div>
-</div>
 <a id="ad97b05b88ce9080f35b157cfacc8eb69" name="ad97b05b88ce9080f35b157cfacc8eb69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad97b05b88ce9080f35b157cfacc8eb69">&#9670;&#160;</a></span>id</h2>
 
@@ -382,6 +364,24 @@ Private Attributes</h2></td></tr>
 <p><b style="color: DarkCyan;">Inspector, Code</b><br  />
  Calls the function(s) subscribed to this <code style="color:DarkRed;">UnityAction</code> when data is received. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Use with caution if communication might be frequent. <a class="el" href="class_f_a_s_t_1_1_serial_connection.html" title="Provides methods to communicate over a serial port.">FAST.SerialConnection</a> receives data on a separate thread, but these callbacks execute on Unity's main thread. Use <a class="el" href="#a2fe62253ea2657a3be7e47a92f026d65" title="Inspector  Set to true if incoming the data should overwrite the previous data. Otherwise the data wi...">FAST.SerialConnection.isOverwrite</a> to only invoke this event on the most recent data received. </dd></dl>
+
+</div>
+</div>
+<a id="ae969f7204a7e846b98a88497dd85f672" name="ae969f7204a7e846b98a88497dd85f672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae969f7204a7e846b98a88497dd85f672">&#9670;&#160;</a></span>port</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string port = &quot;1&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b style="color: DarkCyan;">Settings, Inspector, Code</b><br  />
+ The port to use for serial communication. </p>
+<p>Loaded from <a class="el" href="class_f_a_s_t_1_1_serial_connection_settings.html" title="A data structure to store FAST.SerialConnection and FAST.SerialConnectionLoader settings.">FAST.SerialConnectionSettings</a> at runtime. </p>
 
 </div>
 </div>
